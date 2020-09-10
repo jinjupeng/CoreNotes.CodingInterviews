@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace _03
 {
@@ -16,7 +18,25 @@ namespace _03
         /// <returns></returns>
         public int FindRepeatNumber(int[] nums)
         {
+            var dict = new Dictionary<int, int>(10);
+            foreach (var num in nums)
+            {
+                if (dict.ContainsKey(num))
+                {
+                    var value = dict[num] + 1;
+                    dict[num] = value;
+                    if (value > 1)
+                    {
+                        return num;
+                    }
+                }
+                else
+                {
+                    dict.Add(num, 1);
+                }
+            }
 
+            return -1;
         }
     }
 }
