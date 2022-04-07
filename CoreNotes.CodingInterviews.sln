@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03", "03\03.csproj", "{11B5EF66-FB8E-45D9-9199-146C29167D91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_01_DuplicationArray", "03_01_DuplicationArray\03_01_DuplicationArray.csproj", "{11B5EF66-FB8E-45D9-9199-146C29167D91}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04", "04\04.csproj", "{41C4A8B1-6FDA-4F5F-A3BC-166E688FF3F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_FindInPartiallySortedMatrix", "04_FindInPartiallySortedMatrix\04_FindInPartiallySortedMatrix.csproj", "{41C4A8B1-6FDA-4F5F-A3BC-166E688FF3F7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09", "09\09.csproj", "{43E03052-B154-4453-A1A1-6D00F5C133AA}"
 EndProject
@@ -37,9 +37,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "52", "52\52.csproj", "{B02A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "31", "31\31.csproj", "{FD1291D1-3988-4D2D-ACD4-407DD7D2659B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "49", "49\49.csproj", "{BCB43816-3422-4AB0-9ABA-B07A6C210AB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "49", "49\49.csproj", "{BCB43816-3422-4AB0-9ABA-B07A6C210AB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10-2", "10-2\10-2.csproj", "{7D213114-AED8-46B7-A251-13A91820E04F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10-2", "10-2\10-2.csproj", "{7D213114-AED8-46B7-A251-13A91820E04F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Singleton", "02_Singleton\02_Singleton.csproj", "{7590CBE2-A6E7-4CCE-8515-F4DE24A20EE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_02_DuplicationArrayNoEdit", "03_02_DuplicationArrayNoEdit\03_02_DuplicationArrayNoEdit.csproj", "{F1256A77-649A-4964-A961-CFEC0075386F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +127,14 @@ Global
 		{7D213114-AED8-46B7-A251-13A91820E04F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D213114-AED8-46B7-A251-13A91820E04F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D213114-AED8-46B7-A251-13A91820E04F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7590CBE2-A6E7-4CCE-8515-F4DE24A20EE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7590CBE2-A6E7-4CCE-8515-F4DE24A20EE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7590CBE2-A6E7-4CCE-8515-F4DE24A20EE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7590CBE2-A6E7-4CCE-8515-F4DE24A20EE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1256A77-649A-4964-A961-CFEC0075386F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1256A77-649A-4964-A961-CFEC0075386F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1256A77-649A-4964-A961-CFEC0075386F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1256A77-649A-4964-A961-CFEC0075386F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
